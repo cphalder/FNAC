@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+header {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav {
+  font-weight: 300;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navmenu {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.icons_right {
+  display: flex;
+}
+
+li {
+  padding-left: 10px;
+}
+
+li:hover {
+  text-decoration: underline;
+  padding-top: 1px;
+  text-decoration-thickness: 1px;
+}
+
+.hero img {
+  max-width: 100%;
+  width: 1340px;
+  height: 412px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 58px;
+}
+
+.middle_content_bg {
+  background-color: #f5f5f5;
+}
+
+.middle_content {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.content_title {
+  display: block;
+  font-weight: 300;
+  font-size: large;
+  max-width: 100%;
+  width: 950px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.laptop_options {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 950px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.laptop_options img {
+  width: 320px;
+  height: 160px;
+}
+
+.smartwatch_options {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 950px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.smartwatch_options img {
+  width: 320px;
+  height: 160px;
+}
+
+.smartphone_options {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.smartphone_options img {
+  width: 320px;
+  height: 160px;
+}
+
+.middle_content {
+  max-width: 1300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guias {
+  display: flex;
+  justify-content: center;
+}
+
+.left_guias {
+  margin: 30px 0px 30px 0px;
+}
+
+.right_guias {
+  margin: 30px 0px 30px 10px;
+}
+
+.guias {
+  padding-top: 58px;
+}
+
+.guias img {
+  margin-bottom: 5px;
+  width: 460px;
+  height: auto;
+}
+
+.btn_guias {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn_ver_guias {
+  font-weight: 300;
+  border: none;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  background-color: #232323;
+  color: #f5f5f5;
+  margin-bottom: 80px;
+}
+
+.btn_ver_guias:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-small;
+  padding-top: 3.2rem;
+  padding-right: 4.1rem;
+  padding-bottom: 6.4rem;
+  padding-left: 4.1rem;
+  margin-top: 10px;
+  color: #f5f5f5;
+  text-decoration: none;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.footer_bg {
+  background-color: #232323;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_center1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_center2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_right {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: 200;
+}
+
+/* Product Page */
+.product_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 65px;
+}
+
+.product_image {
+  display: flex;
+  flex-direction: column;
+  margin-left: 65px;
+}
+
+.product_sidekick_image {
+  display: flex;
+  max-width: 50%;
+}
+
+.product_sidekick_image_row1 {
+  margin-right: 180px;
+}
+
+#product_main_img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+#product_small_img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.product_selector {
+  display: flex;
+  width: 285px;
+  height: 700px;
+  justify-content: center;
+  background-color: #f5f5f5;
+  margin-right: 100px;
+}
+
+.product_buttons {
+  display: block;
+  flex-direction: column;
+}
+
+.product_detail_bg {
+  background-color: #f5f5f5;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.product_detail {
+  margin-left: 65px;
+  margin-right: 100px;
+}
+
+#product_body_detail {
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=styles.css.map */

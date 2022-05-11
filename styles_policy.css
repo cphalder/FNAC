@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.policy {
+    font-weight: 100;
+    max-width: 665px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+
+}
+
+footer {
+    font-size: small;
+    background-color: lightgray;
+    padding-top: 3.2rem;
+    padding-right: 4.1rem;
+    padding-bottom: 6.4rem;
+    padding-left: 4.1rem;
+}

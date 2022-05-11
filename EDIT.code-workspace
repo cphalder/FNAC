@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Testes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fnac"
+	}
+}
