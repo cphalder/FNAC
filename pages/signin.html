@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Fnac Connect" />
+    <meta property="og:type" content="text" />
+    <meta property="og:url" content="https://connect.fnac.pt" />
+    <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+    <meta name="twitter:card" content="summary"></meta>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="../content/favicon.ico/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Entra na tua conta</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <span class="logo">
+          <a href="../index.html"><img src="../content/Fnac.png" alt="logo fnac" /></a>
+        </span>
+        <div class="menu_center">
+          <ul class="navmenu" role="menu"
+          aria-labelledby="menubutton">
+            <li>
+              <a role="menuitem" href="google.pt"> Guias</a>
+            </li>
+            <li> <a role="menuitem" href="google.pt">Portateis</a></li>
+            <li> <a role="menuitem" href="google.pt">Smartphones</a></li>
+            <li> <a role="menuitem" href="google.pt">Smartwatches</a></li>
+            <li> <a role="menuitem" href="google.pt">Tablets</a></li>
+          </ul>
+        </div>
+        <div class="menu_right">
+          <ul class="icons_right">
+            <li> <a role="menuitem" href="google.pt">Login</a></li>
+            <li> <a role="menuitem" href="google.pt">Carrinho</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <h2 class="login_title">Acede à tua conta</h2>
+    <section class="form_body">
+    <div class="login">
+      <div class="contact_box">
+        <form action="sendto" method="post">
+          <div class="form_group">
+            <label for="inputEmail">e-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              placeholder="Insere o teu email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="form_group">
+            <label for="inputPassword">palavra-passe</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword"
+              placeholder="Insere a tua palavra-passe"
+              name="password"
+              required
+            />
+            <div class="text-right forgot_password">
+              <a href="mailto">esqueci-me da palavra-passe</a>
+            </div>
+          </div>
+         
+          <div class="text-right submit_button">
+            <button type="submit" class="submit">Aceder</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <h2 class="signup_option">Não tens conta? <a href="" class="signup_link">Inscreve-te</a> agora</h2>
+
+  </body>
