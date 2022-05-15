@@ -1,0 +1,64 @@
+//sign-in styles
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: $background;
+  height: 100vh;
+}
+
+.form_body_signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  width: 600px;
+  padding: 100px 100px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 13px 2px rgba(0, 0, 0, 0.11);
+}
+
+.signup_title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form_group {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.form-control {
+  font-size: 16px;
+  padding: 6px 12px;
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  color: #495057;
+  background-color: #ffffff;
+}
+
+.form-control:focus {
+  border: 2px solid $color-primary;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.submit {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: $color-primary;
+  box-shadow: 0px 6px 13px 2px rgba(0, 0, 0, 0.11);
+  border: none;
+  padding: 10px 15px;
+}
