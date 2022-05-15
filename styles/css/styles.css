@@ -112,12 +112,12 @@ body {
   margin-bottom: 30px;
 }
 
-.form_group {
+.form_group_signup {
   margin-bottom: 16px;
   font-weight: 300;
 }
 
-.form-control {
+.form-control-signup {
   font-size: 16px;
   padding: 6px 12px;
   display: block;
@@ -130,7 +130,7 @@ body {
   background-color: #ffffff;
 }
 
-.form-control:focus {
+.form-control-signup:focus {
   border: 2px solid #FEB32C;
 }
 
