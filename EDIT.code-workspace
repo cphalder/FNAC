@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "../Testes"
+		},
+		{
+			"path": "../../Udemy/Fullstack"
+		},
+		{
+			"path": "../../../../Desktop/Safeglasses-master"
 		}
 	],
 	"settings": {

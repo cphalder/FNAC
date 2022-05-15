@@ -2,6 +2,9 @@
 @import "variables.scss";
 @import "reset.scss";
 @import "signin.scss";
+@import "signup.scss";
+@import "buttons.scss";
+@import "footer.scss";
 
 body {
     font-family: "Roboto", sans-serif;
@@ -51,11 +54,14 @@ body {
     padding-top: 1px;
     text-decoration-thickness: 1px;
   }
+
+  .hero_section {
+    display: flex;
+    justify-content: center;
+  }
   
   .hero img {
-    max-width: 100%;
-    width: 1340px;
-    height: 412px;
+
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 58px;
@@ -82,44 +88,30 @@ body {
   
   .laptop_options {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 100%;
     width: 950px;
     margin: 0 auto;
     padding-bottom: 50px;
-  }
-  
-  .laptop_options img {
-    width: 320px;
-    height: 160px;
   }
   
   .smartwatch_options {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 100%;
     width: 950px;
     margin: 0 auto;
     padding-bottom: 50px;
   }
   
-  .smartwatch_options img {
-    width: 320px;
-    height: 160px;
-  }
-  
   .smartphone_options {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 100%;
     width: 950px;
     margin: 0 auto;
   }
-  
-  .smartphone_options img {
-    width: 320px;
-    height: 160px;
-  }
+
   
   .middle_content {
     max-width: 1300px;
@@ -278,4 +270,5 @@ body {
   #product_body_detail {
     font-weight: $skinnyfont;
   }
-  
+
+
