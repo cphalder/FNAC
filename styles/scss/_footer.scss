@@ -1,18 +1,35 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-size: x-small;
-    padding-top: 3.2rem;
-    padding-right: 4.1rem;
-    padding-bottom: 6.4rem;
-    padding-left: 4.1rem;
+    padding-top: 52px;
+    padding-right: 65px;
+    padding-bottom: 100px;
+    padding-left: 65px;
     margin-top: 10px;
     color: #f5f5f5;
     text-decoration: none;
     margin-left: 250px;
     margin-right: 250px;
+
+    @media (max-width: $smartphone) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
   }
   
+// .footer_wrapper {
+
+//   @media (max-width: $smartphone) {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10px;
+//   }
+// }
+
   .footer_bg {
     background-color: $darkbackground;
   }
