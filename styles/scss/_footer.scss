@@ -1,7 +1,5 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
     font-size: x-small;
     padding-top: 52px;
     padding-right: 65px;
@@ -21,14 +19,17 @@
     }
   }
   
-// .footer_wrapper {
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-//   @media (max-width: $smartphone) {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 10px;
-//   }
-// }
+  @media (max-width: $smartphone) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 
   .footer_bg {
     background-color: $darkbackground;
