@@ -6,6 +6,7 @@
     justify-content: space-between;
     margin-top: 30px;
     margin-left: 65px;
+    margin-right: 65px;
   }
   
   .product_image {
@@ -65,12 +66,12 @@
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
-    background-color: $color-primary;
+    background-color: #FEB32C;
     box-shadow: 0px 6px 13px 2px rgb(0 0 0 / 11%);
     border: none;
-    padding: 8px 223px;
+    padding: 6px 100px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    display: inline-block;
   }
 
   .product_wish_btn {
@@ -80,7 +81,10 @@
     background-color: $color-new;
     box-shadow: 0px 6px 13px 2px rgb(0 0 0 / 11%);
     border: none;
-    padding: 8px 223px;
+    padding: 6px 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
   }
   
   .product_detail_bg {

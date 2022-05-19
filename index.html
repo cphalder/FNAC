@@ -9,6 +9,8 @@
     <meta property="og:url" content="https://connect.fnac.pt" />
     <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
     <meta name="twitter:card" content="summary"></meta>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400&display=swap" rel="stylesheet">
@@ -22,7 +24,34 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="index.html"><img src="content/Fnac.png" alt="logo fnac" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navmenu navbar-nav" role="menu"
+            aria-labelledby="menubutton">
+              <li class="nav-item"> <a role="menuitem" href="google.pt">Guias</a></li>
+              <li class="nav-item"> <a role="menuitem" href="google.pt">Portateis</a></li>
+              <li class="nav-item"> <a role="menuitem" href="google.pt">Smartphones</a></li>
+              <li class="nav-item"> <a role="menuitem" href="google.pt">Smartwatches</a></li>
+              <li class="nav-item"> <a role="menuitem" href="google.pt">Tablets</a></li>
+            </ul>
+          </div>
+          <div class="menu_right collapse navbar-collapse" id="navbarNav">
+            <ul class="icons_right navbar-nav">
+              <li class="nav-item"> <a role="menuitem" href="pages/signin.html">Login</a></li>
+              <li class="nav-item"> <a role="menuitem" href="google.pt">Carrinho</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- OLD NAV -->
+
+      <!-- <nav class="nav">
         <span class="logo">
           <a href="index.html"><img src="content/Fnac.png" alt="logo fnac" /></a>
         </span>
@@ -44,7 +73,7 @@
             <li> <a role="menuitem" href="google.pt">Carrinho</a></li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
     </header>
     <section class="hero_section">
       <div class="hero">
@@ -75,6 +104,7 @@
       </div>
     </section>
   </div>
+
     <section class="guias">
       <div class="left_guias">
       <div class="guia_portateis1"><a href="http://google.pt"><img src="content/guiapportateis.png" alt=""></a></div>
@@ -95,13 +125,13 @@
     <footer class="footer">
       <div class="footer_wrapper">
       <div class="footer_left">
-      <h2 class="footer_title">Apoio Cliente</h2>
+      <h5 class="footer_title">Apoio Cliente</h5>
       <a href="">Ajuda FNAC</a>
       <a href="">Contactos</a>
     </div>
 
       <div class="footer_center1">
-      <h2 class="footer_title">Menções legais</h2>
+      <h5 class="footer_title">Menções legais</h5>
       <a href="">Condições Gerais de Venda Fnac.pt</a>
       <a href="">Politica de Privacidade</a>
       <a href="">Política de Cookies</a>
@@ -110,7 +140,7 @@
     </div>
 
       <div class="footer_center2">
-      <h2 class="footer_title">Produtos e Serviços FNAC</h2>
+      <h5 class="footer_title">Produtos e Serviços FNAC</h5>
       <a href="">Cartão Fnac</a>
       <a href="">Liga e Encomenda</a>
       <a href="">Clínica Fnac</a>
@@ -119,7 +149,7 @@
     </div>
 
       <div class="footer_right">
-      <h2 class="footer_title">A Fnac</h2>
+      <h5 class="footer_title">A Fnac</h5>
       <a href="">Grupo Fnac Darty</a>
       <a href="">Quem Somos</a>
       <a href="">Trabalhar na Fnac</a>
