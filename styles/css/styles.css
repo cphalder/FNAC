@@ -254,6 +254,40 @@ body {
   margin-top: 10px;
 }
 
+.guide_content {
+  margin-top: 30px;
+  margin-left: 65px;
+  margin-right: 65px;
+  font-weight: 400;
+}
+
+.guide_image {
+  display: flex;
+  flex-direction: column;
+  margin-left: 65px;
+}
+
+.guide_hero {
+  width: 100%;
+}
+
+.guide_intro {
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 65px;
+}
+
+.guide_product {
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 65px;
+}
+
+.guide_img_break {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 .footer {
   font-size: x-small;
   padding-top: 52px;
@@ -357,25 +391,13 @@ header {
   text-decoration: none;
 }
 
-.navmenu {
+.navbar-nav {
   display: flex;
   margin-top: 10px;
-}
-@media (max-width: 640px) {
-  .navmenu {
-    display: none;
-  }
 }
 
 .container-fluid {
   font-weight: 300;
-}
-
-@media (max-width: 640px) {
-  .menu_right {
-    display: none;
-    margin-top: 10px;
-  }
 }
 
 ul {
@@ -391,12 +413,6 @@ ul {
 
 li {
   padding-left: 10px;
-}
-
-li:hover {
-  text-decoration: underline;
-  padding-top: 1px;
-  text-decoration-thickness: 1px;
 }
 
 .hero_section {
