@@ -437,11 +437,6 @@ li {
   background-color: #f5f5f5;
 }
 
-.middle_content {
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
-
 .content_title {
   display: block;
   font-weight: 300;
@@ -458,62 +453,37 @@ li {
   }
 }
 
-.laptop_options {
+.product_options {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
   width: 100%;
   max-width: 950px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
 @media (max-width: 640px) {
-  .laptop_options {
+  .product_options {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
 }
-
-.smartwatch_options {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 950px;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
-@media (max-width: 640px) {
-  .smartwatch_options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-}
-
-.smartphone_options {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 950px;
-  margin: 0 auto;
-}
-@media (max-width: 640px) {
-  .smartphone_options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+@media (min-width: 1024px) {
+  .product_options {
+    justify-content: space-between;
   }
 }
 
 .middle_content {
   max-width: 1300px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .guias {
