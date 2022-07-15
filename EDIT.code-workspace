@@ -1,16 +1,22 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../Testes"
-		},
-		{
-			"path": "../../Udemy/Fullstack"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "fnac"
-	}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../Testes"
+    },
+    {
+      "path": "../../Udemy/Fullstack"
+    },
+    {
+      "path": "../../Personal/JSChallenger"
+    },
+    {
+      "path": "../PingoDoce"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "PingoDoce"
+  }
 }
