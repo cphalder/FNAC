@@ -14,9 +14,12 @@
     },
     {
       "path": "../PingoDoce"
+    },
+    {
+      "path": "../my-app"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "PingoDoce"
+    "liveServer.settings.multiRootWorkspaceName": "my-app"
   }
 }
