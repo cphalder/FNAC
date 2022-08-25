@@ -120,10 +120,6 @@ li {
     align-items: center;
     gap: 10px;
   }
-
-  @media (min-width: $laptop) {
-    justify-content: space-between;
-  }
 }
 
 .middle_content {
