@@ -17,9 +17,12 @@
     },
     {
       "path": "../my-app"
+    },
+    {
+      "path": "../calculator"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "my-app"
+    "liveServer.settings.multiRootWorkspaceName": "calculator"
   }
 }
